@@ -118,7 +118,34 @@ button{
     font-weight: 300;
     flex:1;
 }
+
 .main_middle h3{
     flex:1;
     text-align: right;
+}
+
+.main_bottom_div{
+    margin:100px 500px;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_bottom_div_text{
+    color:white;
+}
+.main_bottom_div button{
+    background-color: #3882F6;
+    outline: none;
+    border: 2px solid white;
+    padding: 7px 40px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+}
+
+footer{
+    
 }
