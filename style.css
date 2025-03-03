@@ -104,3 +104,21 @@ button{
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
+
+.main_middle{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 500px;
+}
+
+.main_middle h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    flex:1;
+}
+.main_middle h3{
+    flex:1;
+    text-align: right;
+}
