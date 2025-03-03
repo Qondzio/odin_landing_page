@@ -26,8 +26,51 @@ header{
     gap: 30px;
 }
 
-.menu h3{
+.menu h3, .left_side h3{
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 400;
+}
+
+.under_header{
+    display: flex;
+    justify-content:center;
+    padding: 100px 350px;
+    background-color: #1f2937;
+    height: 300px;
+    gap: 100px;
+}
+
+.left_side{
+    flex:1;
+    padding-right: 50px;
+}
+
+.left_side h2{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button{
+    background-color: #3882F6;
+    outline: none;
+    border: none;
+    padding: 7px 40px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+    margin-top:10px;
+}
+
+.right_side{
+    background-color: grey;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_side p{
+    color:white;
 }
