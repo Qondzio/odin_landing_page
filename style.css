@@ -147,5 +147,11 @@ button{
 }
 
 footer{
-    
+    padding: 30px 0;
+    background-color: #1F2937;
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
